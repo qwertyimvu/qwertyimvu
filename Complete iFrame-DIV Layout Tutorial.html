@@ -1,0 +1,439 @@
+<font face="verdana"><p><center><img src="http://i42.tinypic.com/140hiiv.jpg"></center></p>
+
+<p>Warnings:</p>
+
+<p>1: This could be the longest post EVER.</p>
+
+<p>2: I have never opened up GIMP before in my life - so please stop asking me to do the tutorial in GIMP. I'm a Photoshop girl and if you have questions about Photoshop, then I'll gladly help :) But all GIMP questions should be posted here in the thread for other people to help answer (like the awesome SilentProtest who is a GIMP wiz).</p>
+
+<p>3: I will NOT go into the client to chat with you to help. It is harder and less helpful.</p>
+
+<p>This was intended as a prequel to <a href="http://www.imvu.com/catalog/modules.php?op=modload&name=phpbb2&file=viewtopic.php&p=7463381" target="_blank">this tutorial</a>, but ended up replacing it O_o</p>
+
+<p>This tutorial walks through step-by-step on not only how to design a layout, but also how to code it and get it working on your page.</p>
+
+<p>Although you see step-by-step how I make my layouts, I would strongly recommend that you have a basic understanding of HTML and are confident in it.</p>
+
+<p>If you do not know what the difference is between a DIV and an iFrame, here is an explanation by <a href="http://jkb123.net/RoxieRockette" target="_blank">Roxie Rockette</a>:</p>
+
+<p>"Roxie Rockette's" wrote:<br /><blockquote><i>An iFrame layout is like a mini website, it has pages that you can go between. For example, there might be a button you click on to see information about a person or their friends. As it is a mini website, you need somewhere for the pages to go on the internet, that is why you must set up hosting from places like webs.com and that is where you also go to edit the text on the pages.</p>
+
+<p>A DIV layout doesn't have any pages, not even one. It is simply a 'text box' that you type into directly from your IMVU page, it require no hosting or going off IMVU.</i></blockquote></p>
+
+<p><a href="http://www.imvu.com/catalog/modules.php?op=modload&name=phpbb2&file=viewtopic.php&t=319155" target="_blank">Although, to be fair, Dynamic DIVs like found here are an exception :P</a></p>
+
+<p>I would also like to note that this is just my way of coding layouts, people have different ways and they may be better. This is just mine and it works for me :) This may be no help whatsoever, but it may help someone! If there are any errors in any of the tutorials, please point them out!</p>
+
+<p>I use three programs in this tutorial:<br />
+Photoshop CS4<br />
+Notepad<br />
+Firefox</p>
+
+<p>The use of Photoshop CS4 is only for designing the layout image. Although I have not used GIMP before, if you are already confident in the program I'm sure you can work out what the alternatives actions are. I do not think there is anything Photoshop only in this tutorial, so GIMP users should be able to work with it. Please remember that I cannot do this tutorial in GIMP. It would be like asking you to do a tutorial in a program you have never used before and do not understand. But I will have <span style="color: red;">comments for GIMP users in red</span> so look out for those :)</p>
+
+<p>Notepad is a free program that comes preloaded on every Windows PC. To find it, go to: Start>All Programs>Accessories>Notepad (In Windows 7, other Windows may vary in process).</p>
+
+<p>On a Mac, you may initially want to use TextEdit which comes already installed, but for some reason it is not good for coding and can cause issues. Instead, I found that <a href="http://www.barebones.com/products/textwrangler/download.html" target="_blank">TextWrangler</a>, a free app, to be a good replacement.</p>
+
+<p>Firefox is only used as it is my browser of choice, this tutorial will work in any browser.</p>
+
+<p>The steps I take in this tutorial are to make an iFrame layout. However, I will point out what to ignore or when to stop if you're just doing a DIV layout.</p>
+
+<p>I'll break this tutorial up into two parts, the image making and the coding. I suggest skimming through the tutorial first so you can get a jist of what is going on and then read it again more closely.</p>
+
+<p><span style="color: red;">The top notch SilentProtest has made a post with videos for GIMP users about the <strong>basics</strong> of the image making side of this tutorial. I personally would suggest watching his first, making your layout and then read my steps afterwards just to make sure you haven't missed anything. <a href="http://www.imvu.com/catalog/modules.php?op=modload&name=phpbb2&file=viewtopic.php&p=10605031#10605031" target="_blank">Here it is :)</a></span></p>
+
+<p>So, shall we get started?</p>
+
+<p><span style="color: indigo;"><span style="font-size: 18px;">Image Making:</span></span><br />
+<a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_T6nFvjGhCn595884006.png" target="_blank">Step 1</a><br />
+First you need to create a blank image. You MUST have it at 900px wide. Not any bigger and not any smaller. If it is bigger, it won't centre and if it is smaller, it gets SO much harder to code - you have no idea. Height can be whatever :)</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_pjLZK8dkuf1543605500.png" target="_blank">Step 2</a><br />
+Before you do anything, you need to turn the grid on. This may sound silly, but it is ESSENTIAL for coding later on. The above shows how to find it in Photoshop.</p>
+
+<p><span style="color: red;">Note: GIMP users can use the grid if they want or they can ignore it because you guys don't really need it (I'll explain later).</span></p>
+
+<p><span style="color: red;">WatersReflection made a great guide here for using the grid in GIMP <3</span></p>
+
+<p>"WatersReflection" wrote:<br /><blockquote><span style="text-decoration: underline;"><span style="font-size: 18px;"><strong>How to view Grid in GIMP</strong></span></span><br />
+<span style="font-size: 9px;"><em>This is very, very simple, my loves. :3</em></span></p>
+
+<p><span style="font-size: 11px;">1. Open up GIMP and create the size of the layout that you want. <strong>Remember width must be 900px and make sure you click the "Advanced Options" and go down to "Fill With:" and click the drop down menu and make sure "Transparency" is selected.</strong> <em>(Side Note: I've circled where Advanced Options is and I've circled where you need to go to change the picture to be transparent.)</em></span></p>
+
+<p><a href="http://i.imgur.com/KUzhH.png" target="_blank">Click here. (Step 1)</a></p>
+
+<p><span style="font-size: 11px;">2. Now go to Image>Configure Grid.</span></p>
+
+<p><a href="http://i.imgur.com/jyFkf.png" target="_blank">Click here. (Step 2)</a></p>
+
+<p><span style="font-size: 11px;">3. Do <strong>EXACTLY</strong> as what is displayed in the box below.</span></p>
+
+<p><a href="http://i.imgur.com/N67Iv.png" target="_blank">Click here. (Step 3)</a><br />
+<span style="font-size: 11px;"><strong>IMPORTANT: REMEMBER TO CHANGE THE PIXEL AND HEIGHT UNDER "SPACING" TO 25 PIXELS x 25 PIXELS. I CAN'T STRESS IT ENOUGH.</strong></span></p>
+
+<p><span style="font-size: 11px;">4. After you've made sure everything is exactly like I told you to have it, click okay.</span></p>
+
+<p><span style="font-size: 11px;">5. Now, the grid & guide isn't going to show yet.. Go to View>Show Guides and click it. If it is checked it should have a little check mark right beside it, like so:</span></p>
+
+<p><a href="http://i.imgur.com/BK3AS.png" target="_blank">Click here. (Step 5)</a></p>
+
+<p><span style="font-size: 11px;">6. Now this is exactly like step 5, but we are going to show the grids. So go to View>Show Guides and click it, making sure that the little check is to the left of it, like so:</span></p>
+
+<p><a href="http://i.imgur.com/6Y5FD.png" target="_blank">Click here. (Step 6)</a><br />
+<span style="font-size: 11px;"><a href="http://i.imgur.com/MN4qA.png" target="_blank">End result!</a></p>
+
+<p>Quote:<br /><blockquote><strong>Bonus:</strong> Now, to make it SO much easier when you are trying to get the squares or circles perfect you can go to View>Snap Guides and make sure it's checked and then go to View>Snap Grids and it'll make your selects snap to that guide and grid, making it precise and perfect. :]</span></blockquote></p>
+
+<p><span style="font-size: 11px;"><span style="color: red;">IF YOU HAVE ANY QUESTIONS ABOUT THIS TIDBIT THEN MESSAGE ME THROUGH THE FORUMS OR JUST POST YOUR QUESTION IN THIS THREAD AND I'LL RESPOND ASAP.</span></span></blockquote></p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_BWCwyD37UN1114584577.png" target="_blank">Step 3</a><br />
+You can set the grid to whatever size you want, but as a personal preference I like it 25px as it is easy to work with (25>50>75>100) and I use the 25px way of coding later on, so for now I would suggest you use 25px too.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_FdHvc5iPyI2017129348.png" target="_blank">Step 4</a><br />
+Now we've told it how we want our grid, time to turn it on!</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_oHa6y9CVIT408126835.png" target="_blank">Step 5</a><br />
+The image now looks like this with the grid turned on.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_mgkVbVd7GX1976689504.png" target="_blank">Step 6</a><br />
+The way I like to lay out my boxes is by putting them in different bold colours and on different layers. Here you can see where I plan them out and they all fit inside the grid nicely with the expectation of the white box where I plan the avatar image to go. As the avatar image is 160x220, it doesn't fit and so we'll just have to solve that problem a bit later :)</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_xoOXPGPQ6U1888415043.png" target="_blank">Step 7</a><br />
+These are my layers in case you're interested, the bold colours also helps at looking at them in a glance to work out which box is which :P</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_QK9pGQ5Sep1710734678.png" target="_blank">Step 8</a><br />
+I've right clicked on the 'main box' layer and going to click on "Blending Options..."</p>
+
+<p><span style="color: red;">Note: GIMP users, this step is just to fancy the boxes. If you have your own way, do that now :)</span></p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_uRdxLa2d7B1985944184.png" target="_blank">Step 9</a><br />
+After fiddling with the styling a bit, I've decided on a purple layout theme. I would always recommend using 'Stroke' on a layout as it helps with coding later on, but the stroke must always be on the outside - if inside, it will muck up coding XD</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_AJv2RaCeB91502193100.png" target="_blank">Step 10</a><br />
+I usually save my styles as it is easier to apply them to the other boxes. Press "New Style..." and then "OK".</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_AGNVI3aIfQ1810593589.png" target="_blank">Step 11</a><br />
+Here in the "Styles" window we see the style. One at a time, click on a layer and press the style we created. One by one the layout boxes will turn from those bold colours to the style...</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_wBqaX9FaQR1502599732.png" target="_blank">Step 12</a><br />
+...like seen here!</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_THm9UoCU79182335680.png" target="_blank">Step 13</a><br />
+Now, as I said before, I am making an iFrame layout so I need buttons! If you're just making a DIV layout, ignore all text related steps XD</p>
+
+<p><span style="color: red;">Note: GIMP users making an iFrame need to read this step and onwards!</span></p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_ir04X1OPBl713601291.png" target="_blank">Step 14</a><br />
+Just like before, I right clicked on the text layer and pressed "Blending Options..." and fiddled around with the settings to make the text all nice and fancy.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_2DqBcyp51x950742530.png" target="_blank">Step 15</a><br />
+I think I'm done with the layout image! Time to save! I like to save my images via the "Save for Web & Devices..." mode, but whatever is best for you :)</p>
+
+<p><span style="color: red;">Note: Pay attention to this step and on wards GIMP users!</span></p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_VBYdVGwgbp2104120215.png" target="_blank">Step 16</a><br />
+Whatever you do though, make sure you save it as a .png if your image is using transparency (like this one is) a .jpg will be best if there is no transparency involved :)</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_CEXwywhNH62135722906.png" target="_blank">Step 17</a><br />
+Now, go back to your image and type over every box where a DIV will be. So I have five: main, bottom left box, bottom right box, scrollbox and avatar (yes, that counts). Then save it as something like: mylayoutimage-GUIDE</p>
+
+<p>This step is to help with us remembering what box is called what.</p>
+
+<p><span style="color: green;"><span style="font-size: 18px;">Coding:</span></span><br />
+<a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_xwrBbY5dZg1446732275.png" target="_blank">Step 18</a><br />
+Here is the base code we shall start with, copy and paste the following into a Notepad file and save as: base_code.txt</p>
+
+<p><blockquote><xmp><center>
+
+<font face="verdana" size="1" color="black">
+
+<img src="http://layout image url here" width="000" height="000" border="0">
+
+<div id="main_box" style="width:000px; height:000px; position:absolute; left:000px; top:000px; z-index:1; overflow:auto;">
+<iframe src="http://home url here" name="inlineframe" width="000" height="000" border="0" marginwidth=0 marginheight=0 frameborder=0 allowtransparency="true"></iframe>
+</div>
+
+
+
+<style type="text/css">
+   #aboutme_panel, #contact_panel, #dev_panel, #wishlist_panel, #visitors_panel,
+   #messages_panel, #tagcloud_panel, #stickers_panel, #collect_panel,
+   #room_panel, #rankings_panel, #cool_panel, #gallery_panel, #friends_panel,
+   #streetteam_panel, #blog_panel, #video_panel_header, #music_panel, #rss_panel, #url_panel,
+   #special_panel,#outfits_panel {
+      width:900px !important;
+   }
+   #rightColumn {
+      display:none !important;
+   }
+</style>
+
+<style type="text/css">
+#url_panel_colRow, .imvucodes_net { display:none !important; }
+</style>
+
+<style type="text/css">
+.paneltitle, .panelmenu, .imvucodes_net { display:none !important; }
+</style>
+</font>
+</center></xmp></blockquote></p>
+
+<p>The code is in two parts, the part that is to do with creating the DIVs, iFrames and the layout image. The second is to do with making the URL Panel adjust to contain the layout.</p>
+
+<p>As you can see, I have one DIV already set up for the iFrame. Let's use this to create our first box, the main one.</p>
+
+<p>(If you're doing DIVs and not iFrames, please DON'T delete this yet, I will tell you when)</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_7YdtCA5blL656164345.png" target="_blank">Step 19</a><br />
+Now, back in your image program, turn the grid back on for your guide. You have to work out the co-ordinates for your first box. In the code above, you see all those 000s? Let's start with left and top. In the image, see the red arrow and the 0x0. That is where the layout begins. So, if we set our DIV to 0px and 0px left and top it will be there.</p>
+
+<p>As the grid is in sections of 25px we can count how far left and how for off the top the boxes are. For example, the main box is 100px off the top and 250px from the left. So, we would say in the code: left:250px; top:100px;</p>
+
+<p>The same is with the width and height. Just add up the 25px per grid-box to get the correct number. So the main box is 200 high and 600 wide, that means the code becomes: width:600px; height:200px;</p>
+
+<p>This process works with every box in how far it is from the left and top and how wide/high it is. This step is the most important in this tutorial. Please take your time on this step fully understanding what is going on.</p>
+
+<p><span style="color: red;">Note: GIMP users! Remember how I was saying you don't need the grid? Because you have your own way of working out co-ordinates written by SilentProtest (thank you <3):</span></p>
+
+<p><blockquote><a href="http://i40.tinypic.com/igapuu.jpg" target="_blank">Step 1</a><br />
+Right click the layer of the box you want to know the coordinates of and click 'Alpha to Selection'.</p>
+
+<p><a href="http://i40.tinypic.com/i284qt.jpg" target="_blank">Step 2</a><br />
+Double click the selected box with your <a href="http://i39.tinypic.com/2vje8n8.jpg" target="_blank">selection tool</a>, you should get the wanted mouse symbol (example).</p>
+
+<p><a href="http://i41.tinypic.com/v433fr.png" target="_blank">Step 3</a><br />
+Now look at the bottom left panel. You should see something like the example. <br />
+Number 1; left coordinate<br />
+Number 2; top coordinate<br />
+Number 3; width coordinate<br />
+Number 4; height coordinate</p>
+
+<p>Step 4<br />
+Adjust the coordinates. Remember to have the right mouse symbol otherwise adjusting the coordinates will not work out.</p>
+
+<p>You can of course also work the other way around by filling in all the coordinates first.</p>
+
+<p><span style="color: red;"></GIMP user only co-ordinates end> :P</span></blockquote></p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_uT3f9PFmsf1028090309.png" target="_blank">Step 20</a><br />
+Here is the code for the main box fully done. Also remember to update the iFrame code inside with the same width and height. Yes, even you DIV users - trust me, you'll understand why later :)</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_CfiyvUfhmT886290543.png" target="_blank">Step 21</a><br />
+We have more than one box in this layout, so we need more DIVs! Just copy and paste the main_box code below, change the name and delete the iFrame code. Just type what box it is instead. Repeat Step 19 to get the correct numbers and type them in like before. Keep repeating this step and step 19 until you get enough DIVs for your boxes.</p>
+
+<p><strong>NOTE: NEVER EVER PUT A DIV BOX WHERE YOUR BUTTONS ARE.</strong><br />
+Almost all problems people have about their buttons not working are down to people covering their buttons with a DIV box. So don't do that :P</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_4S827CS9I51397208408.png" target="_blank">Step 22</a><br />
+Here are all mine done! As we mentioned before, the avatar image doesn't fit correctly, so just get it to the nearest you can :) Note that the avatar image doesn't have <strong>overflow:auto;</strong> in it as that bit of text that creates scrollbars. As we do not want scrollbars on our avatar image (well, I don't anyway :P), remember to take <strong>overflow:auto;</strong> out for DIVs you do not want scrollbars for.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_bBraIRJ3hQ2120997200.png" target="_blank">Step 23</a><br />
+Upload your layout image (the one without the guide) and replace the URL with yours like here (also remember to put in the width and height).</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_ou4QdG5rjy191500965.png" target="_blank">Step 24</a><br />
+Same with the avatar image, put yours in here too.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_vavHSRRRpN1495741702.png" target="_blank">Step 25</a><br />
+Testing time! I've loaded our layout code into a test account in the URL panel (I suppose you can put it in the Sandbox Panel, but I like to keep it in the URL Panel - but whatever you, never put it in any other panels!) and this is how it came out. Hmm, well, aside from the avatar image, it's looking okay! Or is it...?</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_TiRIx2s7TF1370338778.png" target="_blank">Step 26</a><br />
+Testing is vital and this is how I do it. First, close the </center> tag near the top, so everything will be aligned to left (you'll see why in a moment). Next, set the iFrame home URL to somewhere plain. I have chosen my search engine as it has a white background.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_OW12vE2s7n1701223354.png" target="_blank">Step 27</a><br />
+Further down in the code, test any other boxes that should scroll. I type scroll a ton of times with a <p> in between them. This creates scrollbars and that tells me if they are aligned correctly or not.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_XexxMH1tcD812807973.png" target="_blank">Step 28</a><br />
+Put the testing code back in and we can see now what needs fixing. Well, the avatar image has moved again and is still not in place. The boxes with scrollbars seem out by just a bit - just a touch too high. Your code may be perfect or it may have a few errors like mine.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_U3UquGAwhn217822641.png" target="_blank">Step 29</a><br />
+To fix the errors, just go back into Notepad and edit the code to fix them. In my case, I need to push my DIVs down by 1px.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_uGQx4fVB5S1116964372.png" target="_blank">Step 30</a><br />
+Ah ha! Much better! But the avatar image is still out..</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_lofH4IwCqo723522659.png" target="_blank">Step 31</a><br />
+Before we fix that though, delete all the testing parts, so no more </center> near the top, scroll,scroll,scroll and no more clusty.com :P</p>
+
+<p>Return it back to where it was before, but keep all your error fixing of course! So it will look something like this...</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_CNgbur1XxN730119233.png" target="_blank">Step 32</a><br />
+Woo! Now, that annoying avatar image -_-</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_ZLhrzdWEDo1628216354.png" target="_blank">Step 33</a><br />
+We're just going to have to fiddle around with the numbers until we get it right. It took me a few times, going back and fourth pixel by pixel, but these are the correct numbers!</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_3k3yomCK2e763481504.png" target="_blank">Step 34</a><br />
+Woo! Yeah! Party time! The layout is looking pretty damn good, almost finished now!</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_4gMAdnQ7So1638295993.png" target="_blank">Step 35</a><br />
+Well, iFramers - hold off for a bit. It's time for the DIVers to party as they are now finished! Just delete that iFrame code you've been itching to get rid of and use the blank gap to type in what you want. You are done and have finished this tutorial :)</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_rwpD33wACV289249026.png" target="_blank">Step 36</a><br />
+Us iFramers though have a little bit further to go. We have to sort out those buttons we created! To do that, we need to use something called an ImageMap. And we're going to use one <a href="http://www.maschek.hu/imagemap/imgmap" target="_blank">found here.</a> If you have problem with that website, <a href="http://www.isdntek.com/tagbot/imap.htm" target="_blank">try this image map generator instead :)</a></p>
+
+<p>To make this work, you need to tell the site what image you're going to use, so paste in your layout image URL then get started on 'drawing' out boxes like I have in the image above. Note that I have not given the URLs a target or an alt. I guess you should do the alt, but I don't do it :P Do NOT give it a target no matter what though.</p>
+
+<p>So, you're fine with linking up your HTML pages (home, about and so on), but what about those chat, add and message links?</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_RIiAGznLNF752901936.png" target="_blank">Step 37</a><br />
+<a href="http://gaf210.imvustylez.net/gaf210codes.php?lang=eng&f=links.php" target="_blank">Gaf to the rescue!</a></p>
+
+<p>Type your username here like I have with mine.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_EksdkjfbSZ1080677560.png" target="_blank">Step 38</a><br />
+Then BAM! Information overload! But just pick the links you need so, I first need my add link...</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_Em9o7zqIYe201865824.png" target="_blank">Step 39</a><br />
+Found it! Copy and...</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_BXHRuhdHbA1574919608.png" target="_blank">Step 40</a><br />
+...paste into the correct Href box! Repeat steps 38, 39 and 40 until you fill up all the boxes. You can set the target to these type of URLs as "new window".</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_yhsvx0lT3h298079104.png" target="_blank">Step 41</a><br />
+When you're done, scroll down a bit and press "Code" then this will pop out. Copy and paste it into a NEW Notepad file, NOT the one your layout is in. Why?</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_dDSRZPg8jA1110492865.png" target="_blank">Step 42</a><br />
+Because it is one super long line that is hard to work with -_-</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_GNdhScHX2s1424174905.png" target="_blank">Step 43</a><br />
+Go through the line and delete the highlighted parts for every one you meet (except the alt if you filled it in - you are a better person than I am XD)</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_bs7awfzmyk1986608005.png" target="_blank">Step 44</a><br />
+Then just give it a tidy up: Isn't that much better and easier to read? Your <map id="" name=""> line will look weird with a bunch of numbers. Delete that and replace with ImageMap1 (nice and easy to remember) like seen in the image.</p>
+
+<p>Do you see all those: target="" ? They need targets!</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_zurFEDaLTy1913494051.png" target="_blank">Step 45</a><br />
+Go back to your layout code in the other Notepad file and look at the name of our iFrame - we called it inlineframe (random fact: that is what iFrame stands for!).</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_lZis32yIVl1765016679.png" target="_blank">Step 46</a><br />
+So go back to the ImageMap code and tell all the targets to open up in our iFrame called inlineframe. It should look something like this.</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_ScX7iA7lVp7100779.png" target="_blank">Step 47</a><br />
+Now copy the ImageMap code and paste it in the layout code Notepad file like this!</p>
+
+<p><a href="http://userimages-akm.imvu.com/userdata/16/25/48/78/userpics/Snap_MXi7wFY8KU556912005.png" target="_blank">Step 48</a><br />
+Scroll up to the layout image at the top of the layout and add this in like seen (yes, add the # before the ImageMap name).</p>
+
+<p>Then you won't believe it... but you're done! Copy and paste your layout code into your testing account and it should all work! Woo-hoo!</p>
+
+<p>Although, it is worth mentioning a few things:</p>
+
+<p>1: The last part of the layout where all the IMVU related code is, is just code for IMVU to make our panels work better with iFrames. The first bit of code tells the panels to get really fat and size to 900px width, getting rid of the right panel. As a result, before you put this code in, you must move all panels over to the left.</p>
+
+<p>The second bit gets rid of all the default text already inside the URL Panel, making it nice and clean for your code to go in. And the third code gets rid of the panels headers (So no more "My Url" or "My Messages" on top of your panels. If you wish to change this, take the code out and find one better suited for you)</p>
+
+<p>2: Is that when you make your HTML iFrame pages (the home, about, friends and so on), they must have the following code in every page, this makes the background transparent so your layout image will show through:</p>
+
+<p><pre><style type="text/css">
+Body { Background: transparent; }
+</style></pre></p>
+
+<p>If your layout doesn't work or a step fails, please check each step thoroughly and please make sure you haven't made any errors. If you seriously cannot find the problem out on your own, feel free to post your problem here in this thread. I shall try to help :)</p>
+
+<p>Good luck with your layouts and hopefully this tutorial was helpful to you :)</p>
+
+<h2>Questions & Answers:</h2>
+<p><span style="color: green;"><b><em>Looking Notepad and the online editors like webs.com can get confusing, is there another way I can edit my HTML so I can preview it?</em></b></span></p>
+
+<p>Yup! WatersReflection found a great site to help preview your HTML: http://htmlpreview.richiebrownlee.com/</p>
+<br>
+<p><span style="color: green;"><b><em>I'm confused, what do I put where it says "http://home url here" and how do I get the text inside my tabs (like where it says "About" and so on)?</em></b></span></br>
+
+<br>DIVs don't need pages or tabs, so I'm going to assume that you're referring to iFrames :)</p>
+
+<p>You need to make pages for the text to go into then you link them up by putting the URL in where it says. So, "http://home url here" would become something like "http://jessieimvu.webs.com/home.html".</p>
+
+<p><a href="http://www.imvu.com/catalog/modules.php?op=modload&name=phpbb2&file=viewtopic.php&t=324506" target="_blank">SilentProtest has made an AWESOME tutorial with images to explain how to make pages for your layouts, so I would read that first.</a></p>
+
+<p><a href="http://www.imvu.com/catalog/modules.php?op=modload&name=phpbb2&file=viewtopic.php&t=338139" target="_blank">Fragrance has made an AMAZING tutorial here in one big nice shiny image that explain how to edit pages made in webs.com :)</a></p>
+
+<p>If all that fails, you can try my way of explaining :)</p>
+
+<p>I suggest for hosting your pages at:<br />
+<a href="http://filedrive.imvustylez.net/" target="_blank">Imvustylez Filedrive</a> - A free hosting site designed for hosting IMVU pages.</p>
+
+<p>There are other sites across the internet that allow you to host your pages at, so I'll try not to be too specific with the following instructions as methods vary per site:</p>
+
+<p>1: Make your pages. Open up Notepad and type some stuff in. If you know HTML, use that too for formatting.</p>
+
+<p>2: Save your pages ending in .html NOT .txt. Save them as something memorable like home.html, about.html, friends.html, more.html and you get the idea :)</p>
+
+<p>3: Upload them to your hosting site. This method varies the most, try and find an FAQ of the site to see how you can upload your own files - I cannot help you with uploading them.</p>
+
+<p>4: After uploading, you should be given a URL for each page. Use these URLs to fill in the links in the tutorial.</p>
+<br>
+<p><em><b><span style="color: green;">I'm not very HTML savvy, can you give me a .html page to get started with? So I can edit it and just change the text to say what I want?</span></b></em></p>
+
+<p>Sure, copy and paste the following into Notepad and save as base_pages.html</p>
+
+<p><blockquote><xmp><center>
+This is a basic HTML page example.
+<p>
+Antonio82 doesn't like it when people use the paragraph break above without closing it.
+<p>
+But Qwerty is too lazy to close them.
+<p>
+<b><u>So, to recap:</u></b>
+<br>Antonio82 knows best
+<br>Qwerty knows lazy
+<p>
+
+<i>Did you hear that?</i><br>
+<b>What?</b><br>
+<i>I'm italic</i><br>
+<b>So? I'm BOLD!</b><br>
+<u>Hey! Don't ignore me! I'm underlined!</u><br>
+<i><b><u>*ahem* I'm EVERYTHING!</i></b></u>
+<p>
+
+What about font colours, sizes and just fonts?!<br>
+<font face="verdana" size="1" color="#6699CC">Woo! I'm pretty :) I'm nice blue, small at a size 1 and in Verdana</font>
+<p>
+Yes, but you're also using the font tag which people frown upon these days.
+<p>
+
+<img src="http://i44.tinypic.com/333elqb.jpg">
+<p>
+Gasp! An image! So, that is how you put them in eh? Niiiiiice.
+<p>
+
+<font face="Lucida Sans" size="2" color="Tomato">Nicer than me?</font><br>
+I guess you are pretty nice, but how do I know what fonts and colours I can use?!
+<p>
+<b>Try these:</b><br>
+<a href="http://en.wikipedia.org/wiki/Web_typography" target="_blank">A Wikipedia page on web safe fonts</a><br>
+<a href="http://en.wikipedia.org/wiki/Web_colors" target="_blank">And colours!</a>
+<p>
+
+<i>Hang on there! Did you just use a link?!</i><br>
+Yes, I did. And there are a few things people need to know when using a link:<br>
+<li>When you set your target to "_blank" that means it will open up in a new tab/window</li>
+<li> If you're using iFrames, you can set the target to the iFrame's name and it will open up inside that iFrame.</li>
+<li>If there is no target at the end, then the link will open up inside the page you're currently in. This can be messy inside iFrames</li>
+<p>
+
+<p align="left">Can I just say I don't like things in the centre, I like them on the left...</p><br>
+<p align="right">So? I like them on the right :P</p>
+<p>
+
+<i>Gasp! Did Qwerty just close those paragraph tags above?</i><br>
+Yes, but only because they needed closing... they need closing, normal ones don't :P
+<p>
+
+<font face="Century Gothic" size="3" color="DarkSlateBlue">I think I'm set now for making this page much own, is there anything else I need to remember?</font><br>
+<font face="verdana" size="1" color="black">Yeah, don't delete the code below, it's making the background transparent so your layout image shines through :)</font>
+</center>
+
+<!--DO NOT DELETE THE FOLLOWING--!>
+<style type="text/css">
+Body { Background: transparent; }
+</style></xmp></blockquote></p>
+
+<p>Yes, it is very long, but it is also a basic tutorial in HTML, plus:<br />
+<img src="http://i44.tinypic.com/333elqb.jpg"></p>
+
+<p>:P</p>
+
+<p>Then just press "Save As" and rename to like home.html, about.html, friends.html, more.html and so on until you have created all your pages. Then just edit the content inside :)</p></font>
